@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/front_layout_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="-30dp"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/sub_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@android:dimen/app_icon_size"
+            android:text="@string/sub_header"
+            android:textSize="@android:dimen/app_icon_size"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/tile_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorFloatingActionButton" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/colorFloatingActionButton"
+        android:contentDescription="@string/add_to_list"
+        android:src="@drawable/ic_add"
+        app:borderWidth="0dp" />
+
+</com.google.android.material.card.MaterialCardView>

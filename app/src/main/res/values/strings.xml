@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShopList</string>
+    <string name="sub_header">Subheader</string>
+    <string name="title">Title</string>
+    <string name="set_town">Set town</string>
+    <string name="set_price">Set price</string>
+    <string name="add_to_list">add to list</string>
+    <string name="image">Image</string>
+    <string name="description">Description</string>
+    <string name="shop_list">Shop list</string>
+    <string name="settings">Settings</string>
+</resources>
